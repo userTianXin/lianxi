@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+    #wrapper{
+        width: 100%;
+        height: 600px;
+        text-align:center;
+        margin: 0 auto;
+    }
+    #header{
+        width: 80%;
+        height: 60px;
+        background-color: #f40;
+        margin: 0 auto;
+
+    }
+    #nav{
+        width: 80%;
+        height: 30px;
+        background-color: #f40;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #section{
+        width: 80%;
+        height: 360px;
+        margin: 0 auto;
+        /* 开启伸缩盒 flex*/
+        display: flex;
+        /* 默认值为row表示行    flex-direction:row */
+
+
+
+
+
+    }
+    #section .aside-left{
+        /* width: 200px; */
+        flex-basis: 100px;
+        flex-grow: 0;
+        /* 默认值也为0 表示不参与剩余空间的分配 */ 
+        /* height: 350px; */
+        background: #f40;
+
+        margin-top: 10px;
+        /* display: inline-block;   */
+    }
+    #section .aside-right{
+        /* width: 200px; */
+        flex-basis: 100px;
+        flex-grow: 0;
+        /* 默认值也为0 表示不参与剩余空间的分配 */ 
+        /* height: 350px; */
+        background: #f40;
+         margin-top: 10px;
+         margin-left: 10px;
+        /* display: inline-block; */
+        text-align:center;
+
+    
+    
+    }
+    #section .content{
+        /* width: 770px; */
+        flex-basis: 350px;
+        height: 350px;
+        background: #f40;
+        flex: 1;
+        /* 参与分配 */
+        /* 复合属性第一项就是grow 可以简写 */
+        margin-left: 10px;
+        margin-top: 10px;
+        /* display: inline-block; */
+        text-align:center;
+    }
+    #footer{
+        width: 80%;
+        height: 100px;
+        background-color: #f40;
+        margin: 0 auto;
+        margin-top: 10px;
+    
+    }
+
+/* 1.现有静态页面的核心样式 */
+/* 2.根据屏幕大小设置媒体断点 */
+/* 大屏幕>1200px 中屏幕>992px 小屏幕 >768px 超小屏幕<768px  */

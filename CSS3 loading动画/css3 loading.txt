@@ -1,0 +1,26 @@
+monster 怪物
+eye 眼睛
+ball球
+display：flex；
+justify-content: center;水平居中
+align-items:center; 垂直
+弹性盒子里的属性
+flex-direction: column; 按列排序
+box-shadow: 0 10px 20px rgba（0,0,0,0.2）;
+第一个是x偏移量 第二个值是y的偏移量
+第三个是阴影的距离 第四个值是阴影的颜色值
+.monster::before 伪元素
+.monster::after
+rotate（45deg）旋转正45度
+jumping跳跃的
+@keyframes jumping跳跃动画
+animation：第一个值name 第二个时间
+第三个值循环
+ animation-delay: 延迟
+alternate切换  
+move移动
+transform改变
+遮罩层 pageloading
+complete 完成
+opacity不透明
+    transform: scale(0.1) rotateZ(360deg); 缩小并旋转

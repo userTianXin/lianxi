@@ -1,0 +1,21 @@
+container 容器
+canvas标签 指定宽高
+  <li><input type="color"></li>
+按钮类型指定为color 画板取色
+
+range范围
+background-size="cover"覆盖到屏幕上
+background-attachment:fixed;
+背景图片相对于可视窗口固定所以随页面滚动背景不动
+box-shadow: 10px;阴影
+transition-duration: 0.2s;延时0.2s
+drawing 图画
+board 板
+cleanBoard清屏
+rescind 撤销
+line路线
+this.ctx.lineCap = 'round';//线条起始和结尾样式
+数组的pop方法
+
+
+

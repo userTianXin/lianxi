@@ -1,0 +1,26 @@
+弹幕的实现效果
+一、点击按钮
+1.获取输入的内容
+2.生成一个元素
+3.设置生成后的元素动画效果
+4.移除元素
+二、按回车实现和以上同样的效果
+
+
+
+vertical垂直的
+fixed固定的
+text-indent: 2em;首行缩进2字符
+controls控制开关
+video插入视频
+parseInt解析一个字符串宽度并返回一个整数
+color":getRandomcolor随机生成一个颜色
+append附加
+last最后的
+children孩子们
+length长度
+eq根据下标去找到匹配的元素
+attr属性
+opacity不透明
+parseInt将字符串转换成整数
+
